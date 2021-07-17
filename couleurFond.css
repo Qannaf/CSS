@@ -1,0 +1,23 @@
+/* Un commentaire*/
+body
+{   
+    margin: auto;
+    width: 500px;
+    color: indigo;
+    /*background-color: #DDD;*/
+    background-image: url(1.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    background-clip: border-box;
+    background-attachment: local;
+
+}
+
+p.modifB
+{   
+    /*color:rgba(255,0,0,0.5)*/
+    /*color: hsl(300, 0, 0.5)*/
+    
+}

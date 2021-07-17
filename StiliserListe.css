@@ -1,0 +1,15 @@
+/* Un commentaire*/
+body
+{   
+    margin: auto;
+    width: 500px;
+    background-color: peru;
+    
+}
+
+li
+{   
+    /*list-style-image: url(1.jpg  );*/
+    /*list-style-position: outside;*/
+    list-style-type: decimal;
+}

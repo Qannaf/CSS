@@ -1,0 +1,38 @@
+/* Un commentaire*/
+
+/*         1) width, min-width, max-width
+           2) Marge interieur :   padding, padding-top, adding-left,...
+           3) Marge exterieur :   margin 
+           4) overflow        :   auto,scroll,  overflow-x,overflow-y,overflow-warp
+           5)                    */
+
+
+html
+{
+    background-color: #FFF;
+    background-color: indigo;
+}
+body
+{
+    background-color: #DDD;
+    width: 400px;
+    height: 500px;
+}
+div
+{
+    background-color: #888;
+    width: 200px;
+    height: 400px;
+}
+p
+{
+    background-color: #c76f6f;
+    width: 100px;
+    height: 50%;
+    padding: 30px 20px 50px 15px;
+    margin: 30px ;
+    /*overflow-x: scroll;*/
+    /*overflow-wrap: break-word;*/
+   /* overflow-wrap: ;*/
+    
+}

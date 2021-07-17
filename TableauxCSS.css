@@ -1,0 +1,46 @@
+/* Un commentaire*/
+/*          1) border      :  <width> <style> <color>
+                              border-width:
+                              border-style:dotted, dashed, solid, double, groove, ridge, inset, outset
+                              border-color:
+                border-top,left ....
+            2) border-image : border-image.com
+            3) border-radius: border-top-left-radius
+            4) outline      :
+
+
+
+*/
+
+
+html
+{
+    background-color: #EEE;
+}
+
+
+body
+{
+    margin: auto;
+    /*width: 1200px;*/
+    
+}
+
+
+table,td,th
+{
+    border: 1px dashed #000;
+    /*border-collapse: collapse;*/
+    border-spacing: 10px;
+}
+
+
+td,th
+{
+    padding: 10px;
+}
+
+th
+{
+    font-size: 10px;
+}

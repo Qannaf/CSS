@@ -1,0 +1,64 @@
+/* Un commentaire*/
+/*          1) border      :  <width> <style> <color>
+                              border-width:
+                              border-style:dotted, dashed, solid, double, groove, ridge, inset, outset
+                              border-color:
+                border-top,left ....
+            2) border-image : border-image.com
+            3) border-radius: border-top-left-radius
+            4) outline      :
+
+
+
+*/
+
+
+html
+{
+    background-color: #FFF;
+    background-color: rgb(36, 185, 173);
+}
+
+body,div,p{margin: auto;}
+
+body
+{
+    background-color: #DDD;
+    border: 5px dashed blue;
+    /*border-top: 5px dashed blue;*/
+    border-radius:  35px;
+    outline:5px double rgb(255, 0, 0) ;
+    outline-offset: 12px;
+    width: 400px;
+    height: 500px;
+    
+}
+
+div
+{
+    background-color: #888;
+    width: 200px;
+    height: 400px;
+}
+
+p
+{
+    background-color: #c76f6f;
+    width: 100px;
+    height: 50%;
+    padding: 30px 20px 50px 15px;
+    margin: 30px ;
+    /*overflow-x: scroll;*/
+    overflow-wrap: break-word;
+    
+}
+
+
+
+
+/*img
+{
+    width: 200px;
+    height: autos;
+}
+*/

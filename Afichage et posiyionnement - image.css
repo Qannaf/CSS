@@ -1,0 +1,62 @@
+/* Un commentaire*/
+/*
+    1) display, visibility, opacity
+    2) position : relative, absolute, fix   left,top,z-index
+    3) flota
+    4) clear
+
+
+
+*/
+
+
+html
+{
+    background-color: #FFF;
+    background-color: rgb(36, 185, 173);
+}
+
+
+
+body
+{
+    background-color: #DDD;
+    margin: auto;
+    width: 1000px;   
+}
+
+.fLeft
+{
+    float: left;
+    /*float: right;*/
+}
+.header
+{
+    clear:left;
+    background-color: indigo;
+    margin: auto;
+    width: 80px;
+    height: 1000px;
+}
+
+.section
+{
+    background-color: rgb(0, 130, 65);
+    margin: auto;
+    height: 800px;
+    width: 300px;
+}
+.footer
+{
+    background-color: rgb(13, 15, 138);
+    margin: auto;
+    width: 30px;
+    height: 1000px;
+}
+
+.aside
+{
+    background-color: rgb(172, 228, 19);
+    margin: auto;
+    width: 200px;
+}

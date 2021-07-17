@@ -1,0 +1,60 @@
+/* Un commentaire*/
+/*
+    1) display, visibility, opacity
+    2) position : relative, absolute, fix   left,top,z-index
+    3) flota
+
+
+
+*/
+
+
+html
+{
+    background-color: #FFF;
+    background-color: rgb(36, 185, 173);
+}
+
+
+
+body
+{
+    background-color: #DDD;
+    margin: auto;
+    width: 1000px;   
+}
+
+p
+{
+    border: 1px dashed black;
+    /*display: inline;*/
+    /*display: inline-block;*/
+    /*visibility: hidden;*/
+}
+
+.a{display: inline-block;}
+.b{display: list-item;}
+
+img
+{
+    opacity: 0.5;
+}
+img:hover
+{
+    opacity: 1;
+}
+
+div
+{
+    width: 40px;
+    height: 50px;
+}
+.aa{background-color:red;}
+.bb
+{
+    background-color:white;
+    position: relative;
+    /*left: 100px;*/
+}
+.cc{background-color: black;}
+

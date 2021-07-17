@@ -1,0 +1,22 @@
+/* Un commentaire*/
+p
+{
+    background-color:#DDD;
+    margin:auto;
+    width:200px;
+}
+p{font-variant: small-caps;}
+
+div#block
+{
+    background-color:#FFF;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 8px;
+    
+}
+
+p span.text-red
+{
+    color: darkviolet;
+}

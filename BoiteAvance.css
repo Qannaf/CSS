@@ -1,0 +1,38 @@
+/*                  */
+
+
+body
+{
+    background-color:gray;
+    width: 600px;
+    margin: auto;
+}
+#div1
+{
+   background-color: honeydew;
+   border: 1px solid #333;
+   box-shadow: 0 0 3px #111;
+   margin-top: 50px;
+   padding: 5px;  
+}
+
+#div2{border: 3px solid darkblue;}
+#div2.block1, .block2
+{
+    width: 100%;
+}
+
+
+.block1, .block2
+{
+    box-sizing: border-box;
+}
+
+.block1{ background-color: hotpink;}
+.block2
+{ 
+    background-color: rgb(150, 105, 255);
+    border: 5px dashed red; 
+    padding: 15%;
+    outline:10px solid rgb(216, 202, 11);
+}

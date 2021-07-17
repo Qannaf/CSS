@@ -1,0 +1,77 @@
+/*
+    1) All tout les appareil
+    2) screen les écran(PC, tablette, smartphone ...)
+    3) speech outil sentise vocale
+    4) print l'impression
+
+
+    >568px smartphone, 768px, 992px, 1024px, 1280px
+
+*/
+
+
+body
+{
+    background-color: rgb(197, 231, 240);
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: auto minmax(150px,300px);
+    grid-template-areas: "entete entete"
+                         "principale laterale"
+                         "pied pied";
+    
+}
+header
+{
+    grid-area: entete;
+}
+section
+{
+    grid-area: principale;
+    background-color:rgb(173, 213, 224);
+    padding: 5px;
+}
+aside
+{
+    grid-area: laterale;
+    background-color: rgb(112, 155, 212);
+    padding: 5px;
+}
+footer
+{
+    grid-area: pied;
+}
+
+@media(max-width:600px)
+{
+   /* body 
+    {
+        color: blue;
+        background-color: blanchedalmond
+    };*/
+    .container
+    {
+    grid-template-columns: 1fr;
+    grid-template-areas: "entete"
+                         "principale"
+                         "laterale"
+                         "pied";
+    }  
+}
+
+/*@media screen and (max-width:600px){}
+@media screen and (max-width:1200px){}*/
+
+@media screen and (min-width:600px){}
+@media screen and (min-width:768px){}
+@media screen and (min-width:992px){}
+@media screen and (min-width:1024px){}

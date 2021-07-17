@@ -1,0 +1,32 @@
+
+body
+{
+    background-color: rgb(197, 231, 240);
+}
+
+.container
+{
+    border: 3px dashed red;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 25px 1fr;
+    grid-template-areas:"entete entete entete"
+                        "principale  . lateral"
+                        "pied pied pied";
+}
+
+.div1
+{
+    border: 1px solid  blue;
+    background-color: blue;
+    color: blanchedalmond;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+
+header{grid-area: entete;}
+section{grid-area: principale;}
+aside{grid-area: lateral;}
+footer{grid-area: pied;}
+
