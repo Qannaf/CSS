@@ -116,24 +116,6 @@ body
 
 
 
-
-## 1. Afichage et posiyionnement - image
-* Afichage et posiyionnement - image.html
-```HTML
-
-````
-
-* Afichage et posiyionnement - image.css
-```CSS
-
-````
-### Output
-![alt text](images/01.PNG?raw=true "sortie de code")
-
-
-
-
-
 ## 2. Afichage et posiyionnement
 * Afichage et posiyionnement.html
 ```HTML
